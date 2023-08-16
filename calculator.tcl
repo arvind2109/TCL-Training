@@ -52,7 +52,4 @@ while {1} {
     if {[info exists error_msg]} {
         puts "Error: $error_msg"
     }
-    else {
-	puts "operation done."
-    }
 }
